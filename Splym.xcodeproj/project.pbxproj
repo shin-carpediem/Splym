@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F51AE61D2923062F00BD540B /* abseil.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F51AE6132923062C00BD540B /* abseil.xcframework */; };
+		F51AE61F2923062F00BD540B /* FirebaseFirestore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F51AE6142923062C00BD540B /* FirebaseFirestore.xcframework */; };
+		F51AE6212923062F00BD540B /* FirebaseFirestoreSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F51AE6152923062D00BD540B /* FirebaseFirestoreSwift.xcframework */; };
+		F51AE6232923062F00BD540B /* BoringSSL-GRPC.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F51AE6162923062D00BD540B /* BoringSSL-GRPC.xcframework */; };
+		F51AE6252923063000BD540B /* gRPC-Core.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F51AE6172923062D00BD540B /* gRPC-Core.xcframework */; };
+		F51AE6272923063000BD540B /* leveldb-library.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F51AE6182923062D00BD540B /* leveldb-library.xcframework */; };
+		F51AE6292923063000BD540B /* Libuv-gRPC.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F51AE6192923062E00BD540B /* Libuv-gRPC.xcframework */; };
+		F51AE62B2923063000BD540B /* FirebaseSharedSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F51AE61A2923062E00BD540B /* FirebaseSharedSwift.xcframework */; };
+		F51AE62D2923063000BD540B /* FirebaseCoreExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F51AE61B2923062E00BD540B /* FirebaseCoreExtension.xcframework */; };
+		F51AE62F2923063100BD540B /* gRPC-C++.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F51AE61C2923062F00BD540B /* gRPC-C++.xcframework */; };
 		F5C1B69B29228BB50064C7A3 /* CardDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C1B69A29228BB50064C7A3 /* CardDomain.swift */; };
 		F5C1B69E29228EA50064C7A3 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = F5C1B69D29228EA50064C7A3 /* ComposableArchitecture */; };
 		F5C1B6A029228EA50064C7A3 /* Dependencies in Frameworks */ = {isa = PBXBuildFile; productRef = F5C1B69F29228EA50064C7A3 /* Dependencies */; };
@@ -41,6 +51,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F51AE6132923062C00BD540B /* abseil.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = abseil.xcframework; path = Carthage/Build/abseil.xcframework; sourceTree = "<group>"; };
+		F51AE6142923062C00BD540B /* FirebaseFirestore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FirebaseFirestore.xcframework; path = Carthage/Build/FirebaseFirestore.xcframework; sourceTree = "<group>"; };
+		F51AE6152923062D00BD540B /* FirebaseFirestoreSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FirebaseFirestoreSwift.xcframework; path = Carthage/Build/FirebaseFirestoreSwift.xcframework; sourceTree = "<group>"; };
+		F51AE6162923062D00BD540B /* BoringSSL-GRPC.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "BoringSSL-GRPC.xcframework"; path = "Carthage/Build/BoringSSL-GRPC.xcframework"; sourceTree = "<group>"; };
+		F51AE6172923062D00BD540B /* gRPC-Core.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "gRPC-Core.xcframework"; path = "Carthage/Build/gRPC-Core.xcframework"; sourceTree = "<group>"; };
+		F51AE6182923062D00BD540B /* leveldb-library.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "leveldb-library.xcframework"; path = "Carthage/Build/leveldb-library.xcframework"; sourceTree = "<group>"; };
+		F51AE6192923062E00BD540B /* Libuv-gRPC.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "Libuv-gRPC.xcframework"; path = "Carthage/Build/Libuv-gRPC.xcframework"; sourceTree = "<group>"; };
+		F51AE61A2923062E00BD540B /* FirebaseSharedSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FirebaseSharedSwift.xcframework; path = Carthage/Build/FirebaseSharedSwift.xcframework; sourceTree = "<group>"; };
+		F51AE61B2923062E00BD540B /* FirebaseCoreExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FirebaseCoreExtension.xcframework; path = Carthage/Build/FirebaseCoreExtension.xcframework; sourceTree = "<group>"; };
+		F51AE61C2923062F00BD540B /* gRPC-C++.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "gRPC-C++.xcframework"; path = "Carthage/Build/gRPC-C++.xcframework"; sourceTree = "<group>"; };
 		F5C1B69A29228BB50064C7A3 /* CardDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDomain.swift; sourceTree = "<group>"; };
 		F5C1B6A129228FB00064C7A3 /* TCATemplateDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCATemplateDomain.swift; sourceTree = "<group>"; };
 		F5C1B6A729229A200064C7A3 /* TCATemplatePresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCATemplatePresentation.swift; sourceTree = "<group>"; };
@@ -63,8 +83,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F51AE6212923062F00BD540B /* FirebaseFirestoreSwift.xcframework in Frameworks */,
+				F51AE61F2923062F00BD540B /* FirebaseFirestore.xcframework in Frameworks */,
 				F5C1B6A029228EA50064C7A3 /* Dependencies in Frameworks */,
+				F51AE61D2923062F00BD540B /* abseil.xcframework in Frameworks */,
+				F51AE6272923063000BD540B /* leveldb-library.xcframework in Frameworks */,
+				F51AE62D2923063000BD540B /* FirebaseCoreExtension.xcframework in Frameworks */,
+				F51AE6232923062F00BD540B /* BoringSSL-GRPC.xcframework in Frameworks */,
 				F5C1B69E29228EA50064C7A3 /* ComposableArchitecture in Frameworks */,
+				F51AE6252923063000BD540B /* gRPC-Core.xcframework in Frameworks */,
+				F51AE6292923063000BD540B /* Libuv-gRPC.xcframework in Frameworks */,
+				F51AE62F2923063100BD540B /* gRPC-C++.xcframework in Frameworks */,
+				F51AE62B2923063000BD540B /* FirebaseSharedSwift.xcframework in Frameworks */,
 				F5DD0044292289720014F02E /* Neumorphic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -86,6 +116,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F51AE6122923062B00BD540B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F51AE6132923062C00BD540B /* abseil.xcframework */,
+				F51AE6162923062D00BD540B /* BoringSSL-GRPC.xcframework */,
+				F51AE61B2923062E00BD540B /* FirebaseCoreExtension.xcframework */,
+				F51AE6142923062C00BD540B /* FirebaseFirestore.xcframework */,
+				F51AE6152923062D00BD540B /* FirebaseFirestoreSwift.xcframework */,
+				F51AE61A2923062E00BD540B /* FirebaseSharedSwift.xcframework */,
+				F51AE61C2923062F00BD540B /* gRPC-C++.xcframework */,
+				F51AE6172923062D00BD540B /* gRPC-Core.xcframework */,
+				F51AE6182923062D00BD540B /* leveldb-library.xcframework */,
+				F51AE6192923062E00BD540B /* Libuv-gRPC.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F5C1B6A3292299A80064C7A3 /* TCATemplate */ = {
 			isa = PBXGroup;
 			children = (
@@ -150,6 +197,7 @@
 				F5DD0026292273460014F02E /* SplymTests */,
 				F5DD0030292273460014F02E /* SplymUITests */,
 				F5DD00142922733E0014F02E /* Products */,
+				F51AE6122923062B00BD540B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -213,6 +261,7 @@
 				F5DD000F2922733E0014F02E /* Sources */,
 				F5DD00102922733E0014F02E /* Frameworks */,
 				F5DD00112922733E0014F02E /* Resources */,
+				F51AE6322923066E00BD540B /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -336,6 +385,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F51AE6322923066E00BD540B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F5DD000F2922733E0014F02E /* Sources */ = {
