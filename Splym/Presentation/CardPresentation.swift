@@ -1,26 +1,6 @@
 import ComposableArchitecture
 import SwiftUI
 
-// MARK: - ReducerProtocol
-
-struct Card: ReducerProtocol {
-    struct State: Equatable {
-        
-    }
-    
-    enum Action: Equatable {
-        
-    }
-    
-    func reduce(into state: inout State, action: Action) -> EffectTask<Action> {
-        switch action {
-            
-        }
-    }
-}
-
-// MARK: - View
-
 struct CardView: View {
     let store: StoreOf<Card>
     
