@@ -1,2 +1,2 @@
-![icon](https://user-images.githubusercontent.com/71208265/201679972-db21aeb7-7ffd-4d4b-b8e0-2b9e2b926a06.png)
+![icon](https://user-images.githubusercontent.com/71208265/201680179-a0ba9fd8-94bd-4a54-9f22-dc37aef8740c.png)
 # Splym
