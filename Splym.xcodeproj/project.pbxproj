@@ -44,6 +44,7 @@
 		F5DD002D292273460014F02E /* SplymUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplymUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5DD0031292273460014F02E /* SplymUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplymUITests.swift; sourceTree = "<group>"; };
 		F5DD0033292273460014F02E /* SplymUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplymUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F5DD0040292283E90014F02E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +95,7 @@
 		F5DD00152922733E0014F02E /* Splym */ = {
 			isa = PBXGroup;
 			children = (
+				F5DD0040292283E90014F02E /* Info.plist */,
 				F5DD00162922733E0014F02E /* SplymApp.swift */,
 				F5DD00182922733E0014F02E /* ContentView.swift */,
 				F5DD001A292273450014F02E /* Assets.xcassets */,
@@ -421,11 +423,11 @@
 				DEVELOPMENT_TEAM = KB4BJUD35F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Splym/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Splym;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -453,11 +455,11 @@
 				DEVELOPMENT_TEAM = KB4BJUD35F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Splym/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Splym;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
