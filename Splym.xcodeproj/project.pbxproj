@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F5C1B69B29228BB50064C7A3 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C1B69A29228BB50064C7A3 /* Card.swift */; };
+		F5C1B69E29228EA50064C7A3 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = F5C1B69D29228EA50064C7A3 /* ComposableArchitecture */; };
+		F5C1B6A029228EA50064C7A3 /* Dependencies in Frameworks */ = {isa = PBXBuildFile; productRef = F5C1B69F29228EA50064C7A3 /* Dependencies */; };
+		F5C1B6A229228FB00064C7A3 /* TCATemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C1B6A129228FB00064C7A3 /* TCATemplate.swift */; };
 		F5DD00172922733E0014F02E /* SplymApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DD00162922733E0014F02E /* SplymApp.swift */; };
 		F5DD00192922733E0014F02E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DD00182922733E0014F02E /* ContentView.swift */; };
 		F5DD001B292273450014F02E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5DD001A292273450014F02E /* Assets.xcassets */; };
@@ -35,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F5C1B69A29228BB50064C7A3 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		F5C1B6A129228FB00064C7A3 /* TCATemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCATemplate.swift; sourceTree = "<group>"; };
 		F5DD00132922733E0014F02E /* Splym.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Splym.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5DD00162922733E0014F02E /* SplymApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplymApp.swift; sourceTree = "<group>"; };
 		F5DD00182922733E0014F02E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +59,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5C1B6A029228EA50064C7A3 /* Dependencies in Frameworks */,
+				F5C1B69E29228EA50064C7A3 /* ComposableArchitecture in Frameworks */,
 				F5DD0044292289720014F02E /* Neumorphic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -77,6 +85,7 @@
 		F5DD000A2922733E0014F02E = {
 			isa = PBXGroup;
 			children = (
+				F5C1B6A129228FB00064C7A3 /* TCATemplate.swift */,
 				F5DD00152922733E0014F02E /* Splym */,
 				F5DD0026292273460014F02E /* SplymTests */,
 				F5DD0030292273460014F02E /* SplymUITests */,
@@ -98,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				F5DD0040292283E90014F02E /* Info.plist */,
+				F5C1B69A29228BB50064C7A3 /* Card.swift */,
 				F5DD00162922733E0014F02E /* SplymApp.swift */,
 				F5DD00182922733E0014F02E /* ContentView.swift */,
 				F5DD001A292273450014F02E /* Assets.xcassets */,
@@ -149,6 +159,8 @@
 			name = Splym;
 			packageProductDependencies = (
 				F5DD0043292289720014F02E /* Neumorphic */,
+				F5C1B69D29228EA50064C7A3 /* ComposableArchitecture */,
+				F5C1B69F29228EA50064C7A3 /* Dependencies */,
 			);
 			productName = Splym;
 			productReference = F5DD00132922733E0014F02E /* Splym.app */;
@@ -223,8 +235,8 @@
 			);
 			mainGroup = F5DD000A2922733E0014F02E;
 			packageReferences = (
-				F5DD0041292288F80014F02E /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
 				F5DD0042292289720014F02E /* XCRemoteSwiftPackageReference "neumorphic" */,
+				F5C1B69C29228EA50064C7A3 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
 			);
 			productRefGroup = F5DD00142922733E0014F02E /* Products */;
 			projectDirPath = "";
@@ -268,7 +280,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5C1B6A229228FB00064C7A3 /* TCATemplate.swift in Sources */,
 				F5DD00192922733E0014F02E /* ContentView.swift in Sources */,
+				F5C1B69B29228BB50064C7A3 /* Card.swift in Sources */,
 				F5DD00172922733E0014F02E /* SplymApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -602,12 +616,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		F5DD0041292288F80014F02E /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+		F5C1B69C29228EA50064C7A3 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture.git";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.9.0;
+				branch = main;
+				kind = branch;
 			};
 		};
 		F5DD0042292289720014F02E /* XCRemoteSwiftPackageReference "neumorphic" */ = {
@@ -621,6 +635,16 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		F5C1B69D29228EA50064C7A3 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F5C1B69C29228EA50064C7A3 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+		F5C1B69F29228EA50064C7A3 /* Dependencies */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F5C1B69C29228EA50064C7A3 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = Dependencies;
+		};
 		F5DD0043292289720014F02E /* Neumorphic */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = F5DD0042292289720014F02E /* XCRemoteSwiftPackageReference "neumorphic" */;
