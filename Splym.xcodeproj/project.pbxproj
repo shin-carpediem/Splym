@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5DD00172922733E0014F02E /* SplymApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DD00162922733E0014F02E /* SplymApp.swift */; };
+		F5DD00192922733E0014F02E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DD00182922733E0014F02E /* ContentView.swift */; };
+		F5DD001B292273450014F02E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5DD001A292273450014F02E /* Assets.xcassets */; };
+		F5DD001E292273450014F02E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5DD001D292273450014F02E /* Preview Assets.xcassets */; };
+		F5DD0028292273460014F02E /* SplymTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DD0027292273460014F02E /* SplymTests.swift */; };
+		F5DD0032292273460014F02E /* SplymUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DD0031292273460014F02E /* SplymUITests.swift */; };
+		F5DD0034292273460014F02E /* SplymUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DD0033292273460014F02E /* SplymUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5DD0024292273460014F02E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5DD000B2922733E0014F02E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5DD00122922733E0014F02E;
+			remoteInfo = Splym;
+		};
+		F5DD002E292273460014F02E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5DD000B2922733E0014F02E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5DD00122922733E0014F02E;
+			remoteInfo = Splym;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5DD00132922733E0014F02E /* Splym.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Splym.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5DD00162922733E0014F02E /* SplymApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplymApp.swift; sourceTree = "<group>"; };
+		F5DD00182922733E0014F02E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F5DD001A292273450014F02E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5DD001D292273450014F02E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F5DD0023292273460014F02E /* SplymTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplymTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5DD0027292273460014F02E /* SplymTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplymTests.swift; sourceTree = "<group>"; };
+		F5DD002D292273460014F02E /* SplymUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplymUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5DD0031292273460014F02E /* SplymUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplymUITests.swift; sourceTree = "<group>"; };
+		F5DD0033292273460014F02E /* SplymUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplymUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5DD00102922733E0014F02E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5DD0020292273460014F02E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5DD002A292273460014F02E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5DD000A2922733E0014F02E = {
+			isa = PBXGroup;
+			children = (
+				F5DD00152922733E0014F02E /* Splym */,
+				F5DD0026292273460014F02E /* SplymTests */,
+				F5DD0030292273460014F02E /* SplymUITests */,
+				F5DD00142922733E0014F02E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5DD00142922733E0014F02E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5DD00132922733E0014F02E /* Splym.app */,
+				F5DD0023292273460014F02E /* SplymTests.xctest */,
+				F5DD002D292273460014F02E /* SplymUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5DD00152922733E0014F02E /* Splym */ = {
+			isa = PBXGroup;
+			children = (
+				F5DD00162922733E0014F02E /* SplymApp.swift */,
+				F5DD00182922733E0014F02E /* ContentView.swift */,
+				F5DD001A292273450014F02E /* Assets.xcassets */,
+				F5DD001C292273450014F02E /* Preview Content */,
+			);
+			path = Splym;
+			sourceTree = "<group>";
+		};
+		F5DD001C292273450014F02E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F5DD001D292273450014F02E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F5DD0026292273460014F02E /* SplymTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5DD0027292273460014F02E /* SplymTests.swift */,
+			);
+			path = SplymTests;
+			sourceTree = "<group>";
+		};
+		F5DD0030292273460014F02E /* SplymUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F5DD0031292273460014F02E /* SplymUITests.swift */,
+				F5DD0033292273460014F02E /* SplymUITestsLaunchTests.swift */,
+			);
+			path = SplymUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5DD00122922733E0014F02E /* Splym */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5DD0037292273460014F02E /* Build configuration list for PBXNativeTarget "Splym" */;
+			buildPhases = (
+				F5DD000F2922733E0014F02E /* Sources */,
+				F5DD00102922733E0014F02E /* Frameworks */,
+				F5DD00112922733E0014F02E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Splym;
+			productName = Splym;
+			productReference = F5DD00132922733E0014F02E /* Splym.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5DD0022292273460014F02E /* SplymTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5DD003A292273460014F02E /* Build configuration list for PBXNativeTarget "SplymTests" */;
+			buildPhases = (
+				F5DD001F292273460014F02E /* Sources */,
+				F5DD0020292273460014F02E /* Frameworks */,
+				F5DD0021292273460014F02E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5DD0025292273460014F02E /* PBXTargetDependency */,
+			);
+			name = SplymTests;
+			productName = SplymTests;
+			productReference = F5DD0023292273460014F02E /* SplymTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5DD002C292273460014F02E /* SplymUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5DD003D292273460014F02E /* Build configuration list for PBXNativeTarget "SplymUITests" */;
+			buildPhases = (
+				F5DD0029292273460014F02E /* Sources */,
+				F5DD002A292273460014F02E /* Frameworks */,
+				F5DD002B292273460014F02E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5DD002F292273460014F02E /* PBXTargetDependency */,
+			);
+			name = SplymUITests;
+			productName = SplymUITests;
+			productReference = F5DD002D292273460014F02E /* SplymUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5DD000B2922733E0014F02E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					F5DD00122922733E0014F02E = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					F5DD0022292273460014F02E = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = F5DD00122922733E0014F02E;
+					};
+					F5DD002C292273460014F02E = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = F5DD00122922733E0014F02E;
+					};
+				};
+			};
+			buildConfigurationList = F5DD000E2922733E0014F02E /* Build configuration list for PBXProject "Splym" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5DD000A2922733E0014F02E;
+			productRefGroup = F5DD00142922733E0014F02E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5DD00122922733E0014F02E /* Splym */,
+				F5DD0022292273460014F02E /* SplymTests */,
+				F5DD002C292273460014F02E /* SplymUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5DD00112922733E0014F02E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5DD001E292273450014F02E /* Preview Assets.xcassets in Resources */,
+				F5DD001B292273450014F02E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5DD0021292273460014F02E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5DD002B292273460014F02E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5DD000F2922733E0014F02E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5DD00192922733E0014F02E /* ContentView.swift in Sources */,
+				F5DD00172922733E0014F02E /* SplymApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5DD001F292273460014F02E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5DD0028292273460014F02E /* SplymTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5DD0029292273460014F02E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5DD0034292273460014F02E /* SplymUITestsLaunchTests.swift in Sources */,
+				F5DD0032292273460014F02E /* SplymUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5DD0025292273460014F02E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5DD00122922733E0014F02E /* Splym */;
+			targetProxy = F5DD0024292273460014F02E /* PBXContainerItemProxy */;
+		};
+		F5DD002F292273460014F02E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5DD00122922733E0014F02E /* Splym */;
+			targetProxy = F5DD002E292273460014F02E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F5DD0035292273460014F02E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5DD0036292273460014F02E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5DD0038292273460014F02E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 0.1.0.0;
+				DEVELOPMENT_ASSET_PATHS = "\"Splym/Preview Content\"";
+				DEVELOPMENT_TEAM = KB4BJUD35F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Splym;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shincarpediem.Splym;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5DD0039292273460014F02E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 0.1.0.0;
+				DEVELOPMENT_ASSET_PATHS = "\"Splym/Preview Content\"";
+				DEVELOPMENT_TEAM = KB4BJUD35F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Splym;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shincarpediem.Splym;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F5DD003B292273460014F02E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3A32XTC8Y7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shincarpediem.SplymTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Splym.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Splym";
+			};
+			name = Debug;
+		};
+		F5DD003C292273460014F02E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3A32XTC8Y7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shincarpediem.SplymTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Splym.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Splym";
+			};
+			name = Release;
+		};
+		F5DD003E292273460014F02E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3A32XTC8Y7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shincarpediem.SplymUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Splym;
+			};
+			name = Debug;
+		};
+		F5DD003F292273460014F02E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3A32XTC8Y7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shincarpediem.SplymUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Splym;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5DD000E2922733E0014F02E /* Build configuration list for PBXProject "Splym" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5DD0035292273460014F02E /* Debug */,
+				F5DD0036292273460014F02E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5DD0037292273460014F02E /* Build configuration list for PBXNativeTarget "Splym" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5DD0038292273460014F02E /* Debug */,
+				F5DD0039292273460014F02E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5DD003A292273460014F02E /* Build configuration list for PBXNativeTarget "SplymTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5DD003B292273460014F02E /* Debug */,
+				F5DD003C292273460014F02E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5DD003D292273460014F02E /* Build configuration list for PBXNativeTarget "SplymUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5DD003E292273460014F02E /* Debug */,
+				F5DD003F292273460014F02E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5DD000B2922733E0014F02E /* Project object */;
+}
