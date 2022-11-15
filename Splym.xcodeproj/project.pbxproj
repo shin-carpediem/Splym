@@ -261,7 +261,8 @@
 				F5DD000F2922733E0014F02E /* Sources */,
 				F5DD00102922733E0014F02E /* Frameworks */,
 				F5DD00112922733E0014F02E /* Resources */,
-				F51AE6322923066E00BD540B /* ShellScript */,
+				F51AE6322923066E00BD540B /* Use Carthage Cache */,
+				F51AE63329243CAD00BD540B /* Run SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -387,7 +388,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		F51AE6322923066E00BD540B /* ShellScript */ = {
+		F51AE6322923066E00BD540B /* Use Carthage Cache */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -396,13 +397,32 @@
 			);
 			inputPaths = (
 			);
+			name = "Use Carthage Cache";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage copy-frameworks\n";
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+		F51AE63329243CAD00BD540B /* Run SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run SwiftLint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which mint >/dev/null; then\n  mint run swiftlint swiftlint autocorrect --format\n  mint run swiftlint swiftlint\nelse\n  echo \"warning: Mint not installed, download from https://github.com/yonaskolb/Mint\"\nfi\n\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
