@@ -5,7 +5,12 @@ import SwiftUI
 struct SplymApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CardListView(
+                store: Store(
+                    initialState: CardList.State(themeColor: .purple),
+                    reducer: CardList()._printChanges()
+                )
+            )
         }
     }
 }
